@@ -43,5 +43,8 @@ PixelForge is a cutting-edge prototype that enables on-the-go image editing powe
 - [ ]  USDA Challenge
 - [ ]  brAIn Rot Challenge
 
+**Demo Video**
+https://youtu.be/rLVVBiGwtHc?si=4gcOujqafBb1uldZ
+
 
 <br /><br />
