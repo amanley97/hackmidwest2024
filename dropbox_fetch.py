@@ -1,7 +1,10 @@
-import dropbox
-ACCESS_TOKEN = 'YOUR_TOKEN_HERE'
+import dropbox, os
 
 def download_image_from_dropbox():
+    ACCESS_TOKEN = os.getenv('DROPBOX_TOKEN')
+    if ACCESS_TOKEN == None:
+        raise ValueError("Dropbox token is not set! Use $DROPBOX_TOKEN")
+        
     dropbox_path = '/photo.jpg'
     local_dir = 'static/assets/images'
 
